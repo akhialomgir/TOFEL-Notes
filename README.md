@@ -4,5 +4,5 @@
 
 ### Special Question Types
 
-- Q13. insert
-- Q14. summary
+- Q13. Insert
+- Q14. Summary
