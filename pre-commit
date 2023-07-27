@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# Run xelatex and capture the output
+output=$(xelatex main.tex 2>&1)
+
+# Check if xelatex encountered any errors
+if [ $? -ne 0 ]; then
+  echo "xelatex encountered an error:"
+  echo "$output"
+  exit 1 # Abort the commit
+fi
+
+# If xelatex ran successfully, proceed with the commit
+git add .
+exitCode="$?"
+exit $exitCode
