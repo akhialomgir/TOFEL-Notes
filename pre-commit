@@ -11,6 +11,6 @@ if [ $? -ne 0 ]; then
 fi
 
 # If xelatex ran successfully, proceed with the commit
-git add .
+git add main.pdf
 exitCode="$?"
 exit $exitCode
