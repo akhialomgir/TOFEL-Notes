@@ -11,3 +11,4 @@ draft*.pdf
 *.fls
 *.fdb_latexmk
 *.out
+._wordcount_selection.tex
