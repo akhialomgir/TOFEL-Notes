@@ -5,7 +5,7 @@
 ### Special Question Types
 
 - Q13. Insert
-  $\blacksquare$ -> $\blacksquare$
+  [■] -> $\blacksquare$
 - Q14. Summary
 
 ## Pre-commit
